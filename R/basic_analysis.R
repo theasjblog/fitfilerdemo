@@ -1,6 +1,6 @@
 # rvest run -------------------------------------------------------------------
 library(rvest)
-library(lubrdate)
+library(lubridate)
 library(ggplot2)
 library(leaflet)
 library(here)
@@ -53,6 +53,11 @@ activity <- readFitFile(here::here('data', "run_outdoor.fit"))
 
 # get the activity data
 activity_data <- getMessagesByType(activity, 'record')
+
+# get units
+attributes(activity_data$record_2$distance)
+
+attributes(activity_data$record_2$speed)
 
 # plots
 ggplot(activity_data$record_2, aes(x = timestamp, y = heart_rate)) +
