@@ -1,2 +1,7 @@
-# fitfilerdemo
-Demo on how to use FITfileR for basic tasks, and comparison with rvest
+# FITfileR
+
+Repo linked to the Medium article going over the basics of the FITfileR package bi Mike Smith.
+
+[https://msmith.de/FITfileR/articles/FITfileR.html](https://msmith.de/FITfileR/articles/FITfileR.html)
+
+[https://github.com/grimbough/FITfileR](https://github.com/grimbough/FITfileR)
